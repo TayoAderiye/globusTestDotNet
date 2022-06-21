@@ -1,0 +1,15 @@
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\bin\Debug\net5.0\GlobusBank.Persistence.deps.json
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\bin\Debug\net5.0\GlobusBank.Persistence.runtimeconfig.json
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\bin\Debug\net5.0\GlobusBank.Persistence.runtimeconfig.dev.json
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\bin\Debug\net5.0\GlobusBank.Persistence.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\bin\Debug\net5.0\GlobusBank.Persistence.pdb
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.csproj.AssemblyReference.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.AssemblyInfoInputs.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.AssemblyInfo.cs
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\refint\GlobusBank.Persistence.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.pdb
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\GlobusBank.Persistence.genruntimeconfig.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Persistence\obj\Debug\net5.0\ref\GlobusBank.Persistence.dll

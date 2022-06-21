@@ -1,0 +1,15 @@
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\bin\Debug\net5.0\GlobusBank.Infrastructure.deps.json
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\bin\Debug\net5.0\GlobusBank.Infrastructure.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\bin\Debug\net5.0\GlobusBank.Infrastructure.pdb
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\bin\Debug\net5.0\GlobusBank.Persistence.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\bin\Debug\net5.0\GlobusBank.Persistence.pdb
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.AssemblyInfo.cs
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.csproj.CopyComplete
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\refint\GlobusBank.Infrastructure.dll
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\GlobusBank.Infrastructure.pdb
+C:\Users\Tayo\source\repos\GlobusBankTest\GlobusBank.Infrastructure\obj\Debug\net5.0\ref\GlobusBank.Infrastructure.dll
