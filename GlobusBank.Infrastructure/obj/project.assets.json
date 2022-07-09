@@ -27,6 +27,31 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -1374,6 +1399,15 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
       "System.Text.Json/5.0.0": {
         "type": "package",
         "compile": {
@@ -1594,6 +1628,32 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -5343,6 +5403,25 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.Json/5.0.0": {
       "sha512": "+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
       "type": "package",
@@ -5887,23 +5966,31 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "GlobusBank.Persistence >= 1.0.0",
+      "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "RestSharp >= 108.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tayo\\.nuget\\packages\\": {}
+    "C:\\Users\\aderiye.tayo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
       "projectName": "GlobusBank.Infrastructure",
-      "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Tayo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\aderiye.tayo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aderiye.tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5911,14 +5998,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj"
+            "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
+              "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj"
             }
           }
         }
@@ -5933,6 +6021,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "RestSharp": {
             "target": "Package",
             "version": "[108.0.1, )"
@@ -5948,12 +6040,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

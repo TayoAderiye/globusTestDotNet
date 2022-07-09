@@ -45,6 +45,7 @@ namespace GlobusBankTest
             services.AddScoped<IHashHelper, HashPasswordHelper>();
             services.AddScoped<IOtp, OtpService>();
             services.AddScoped<IHttpHelper, HttpClientHelper>();
+            services.AddScoped<IHelper, HelperService>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
         }

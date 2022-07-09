@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj": {}
+    "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj": {
+    "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
         "projectName": "GlobusBank.Infrastructure",
-        "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Tayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\aderiye.tayo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aderiye.tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj"
+              "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
+                "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj"
               }
             }
           }
@@ -44,6 +50,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[108.0.1, )"
@@ -59,26 +69,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
+    "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj",
         "projectName": "GlobusBank.Persistence",
-        "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj",
-        "packagesPath": "C:\\Users\\Tayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj",
+        "packagesPath": "C:\\Users\\aderiye.tayo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aderiye.tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,6 +115,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -139,26 +169,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj": {
+    "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj",
+        "projectUniqueName": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj",
         "projectName": "GlobusBankTest",
-        "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj",
-        "packagesPath": "C:\\Users\\Tayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBankTest\\obj\\",
+        "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBankTest\\GlobusBankTest.csproj",
+        "packagesPath": "C:\\Users\\aderiye.tayo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBankTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aderiye.tayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,17 +215,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj"
+              "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Infrastructure\\GlobusBank.Infrastructure.csproj"
               },
-              "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Tayo\\source\\repos\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj"
+              "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj": {
+                "projectPath": "C:\\Users\\aderiye.tayo\\Desktop\\GlobusBankTest\\GlobusBank.Persistence\\GlobusBank.Persistence.csproj"
               }
             }
           }
@@ -216,6 +266,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -224,7 +288,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
