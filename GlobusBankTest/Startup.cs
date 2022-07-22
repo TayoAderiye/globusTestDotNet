@@ -46,12 +46,14 @@ namespace GlobusBankTest
             services.AddScoped<IOtp, OtpService>();
             services.AddScoped<IHttpHelper, HttpClientHelper>();
             services.AddScoped<IHelper, HelperService>();
+
+            services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -63,6 +65,8 @@ namespace GlobusBankTest
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            dbInitializer.Initialize();
 
             app.UseAuthorization();
 
